@@ -1,3 +1,5 @@
+Repro for https://github.com/vueform/vueform/issues/103
+
 # Vite + Vue 3 + Typescript + Tailwind Starter
 
 Simple, opinionated, **fully typed**, and **production-ready** project template for Vite.
