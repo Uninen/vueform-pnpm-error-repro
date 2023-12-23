@@ -15,6 +15,7 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.json --composite false"
   },
   "dependencies": {
+    "@vueform/vueform": "1.6.5",
     "@vueuse/head": "2.0.0",
     "pinia": "2.1.7",
     "vue": "3.3.10",

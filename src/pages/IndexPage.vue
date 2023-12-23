@@ -5,6 +5,12 @@ const store = useStore()
   <div class="p-4 mx-auto prose md:px-6 prose-indigo sm:rounded-md">
     <HelloWorld msg="Hello World Component" />
 
+    <h2>Vueform</h2>
+
+    <Vueform>
+      <TextElement name="hello_world" label="Hello" placeholder="World" />
+    </Vueform>
+
     <h2>Template Project Features</h2>
 
     <p>

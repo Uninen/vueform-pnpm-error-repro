@@ -4,6 +4,7 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import { defineConfig } from 'vite'
 import { version as pkgVersion } from './package.json'
+import vueform from '@vueform/vueform/vite'
 
 process.env.VITE_APP_VERSION = pkgVersion
 if (process.env.NODE_ENV === 'production') {
@@ -33,6 +34,7 @@ export default defineConfig({
     Components({
       dts: 'src/components.d.ts',
     }),
+    vueform(),
   ],
   resolve: {
     alias: {
